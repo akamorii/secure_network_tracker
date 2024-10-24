@@ -1,0 +1,19 @@
+/* div {
+    width: 100px;
+    height:100px; 
+    background-color:brown;
+    color:aliceblue; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    border-radius:10px; 
+    cursor: pointer
+}
+
+body {
+    background-color: #333333;
+} */
+
+.main_div {
+    min-height: 400px;
+}

@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.main_login_window {
+    /* width: 400px; */
+    min-width: 250px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.login_window {
+    width: 300px;
+}
+
+.login_form {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_position {
+    margin: 20px 0 20px 0;
+}
+
+.input_area {
+    width: 300px;
+}
+
+.input_btn {
+    position: absolute;
+    bottom: 190px;
+    width: 200px;
+}

@@ -1,0 +1,18 @@
+.container_for_users {
+    display: flex;
+
+}
+
+.user {
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #babac279;
+}
+
+.user_area {
+    margin-left: 10px;
+}

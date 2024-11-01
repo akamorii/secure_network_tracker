@@ -33,5 +33,12 @@ def login_page():
     return render_template('login.html')
 
 
+@app.route('/admin')
+def admin_page():
+    user = Users.query.first()
+    print(user)
+    return render_template('admin.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)

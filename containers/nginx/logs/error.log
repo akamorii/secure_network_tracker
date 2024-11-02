@@ -1,0 +1,4 @@
+2024/11/02 12:21:38 [info] 9#9: *1 client 192.168.1.1 closed keepalive connection
+2024/11/02 12:21:48 [info] 9#9: *2 client 192.168.1.1 closed keepalive connection
+2024/11/02 12:22:47 [info] 9#9: *3 client 192.168.1.1 closed keepalive connection
+2024/11/02 12:30:51 [info] 9#9: *4 client 192.168.1.1 closed keepalive connection

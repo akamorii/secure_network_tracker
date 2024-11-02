@@ -1,8 +1,21 @@
 version: '3'
 services:
   nginx:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "2488:8080"
+      - "8181:8080"
     volumes:
-      - ./logs:/var/log/nginx  
+      - ./logs:/var/log/nginx
+      - ./logs/tcp_dump_logs:/var/log/tcpdump
+    networks:
+      my_custom_network:
+        ipv4_address: 192.168.1.110  # Задайте желаемый IP-адрес
+
+networks:
+  my_custom_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.1.0/24  # Укажите нужную подсеть

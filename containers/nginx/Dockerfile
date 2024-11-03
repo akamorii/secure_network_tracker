@@ -1,4 +1,4 @@
-# Dockerfile
+
 FROM nginx:latest
 
 # Устанавливаем tcpdump
